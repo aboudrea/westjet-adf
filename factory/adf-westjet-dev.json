@@ -1,0 +1,9 @@
+{
+	"name": "adf-westjet-dev",
+	"location": "westus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "305514df-4704-494d-abf2-129c24b386e3",
+		"tenantId": "16b3c013-d300-468d-ac64-7eda0820b6d3"
+	}
+}

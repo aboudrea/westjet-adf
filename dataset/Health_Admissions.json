@@ -1,0 +1,150 @@
+{
+	"name": "Health_Admissions",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "asqldbbchealth",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "Admission",
+				"type": "varchar"
+			},
+			{
+				"name": "Primary Contact",
+				"type": "varchar"
+			},
+			{
+				"name": "Admit Time",
+				"type": "varchar"
+			},
+			{
+				"name": "Discharge Time",
+				"type": "varchar"
+			},
+			{
+				"name": "Hours",
+				"type": "varchar"
+			},
+			{
+				"name": "Dx Code",
+				"type": "varchar"
+			},
+			{
+				"name": "Diagnosis",
+				"type": "varchar"
+			},
+			{
+				"name": "Attending Provider",
+				"type": "varchar"
+			},
+			{
+				"name": "Admitting Provider",
+				"type": "varchar"
+			},
+			{
+				"name": "Discharge Department",
+				"type": "varchar"
+			},
+			{
+				"name": "Total Charges",
+				"type": "varchar"
+			},
+			{
+				"name": "Total Cost",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Fixed Indirect Cost",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Fixed Direct Cost",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Variable Indirect Cost",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Variable Direct Cost",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Admitting Provider Name",
+				"type": "varchar"
+			},
+			{
+				"name": "Admitting Provider Specialty",
+				"type": "varchar"
+			},
+			{
+				"name": "Admitting Provider Type",
+				"type": "varchar"
+			},
+			{
+				"name": "Attending Provider Name",
+				"type": "varchar"
+			},
+			{
+				"name": "Attending Provider Specialty",
+				"type": "varchar"
+			},
+			{
+				"name": "Attending Provider Type",
+				"type": "varchar"
+			},
+			{
+				"name": "DRG",
+				"type": "varchar"
+			},
+			{
+				"name": "DOB",
+				"type": "varchar"
+			},
+			{
+				"name": "GENDER",
+				"type": "varchar"
+			},
+			{
+				"name": "ZIP",
+				"type": "varchar"
+			},
+			{
+				"name": "Primary Payor",
+				"type": "varchar"
+			},
+			{
+				"name": "Arithmetic Mean Length Of Stay",
+				"type": "varchar"
+			},
+			{
+				"name": "DRG Title",
+				"type": "varchar"
+			},
+			{
+				"name": "AGE",
+				"type": "varchar"
+			},
+			{
+				"name": "Delta to Arithmetic Mean Length Of Stay",
+				"type": "varchar"
+			},
+			{
+				"name": "Service Line",
+				"type": "varchar"
+			},
+			{
+				"name": "Days",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "admissions"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
